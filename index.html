@@ -2,13 +2,12 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-     <div>
+
 
     <style>
 
         body {
           background: Cornsilk;
-          border: 4px solid green;
           margin: 0;
           }
 
@@ -17,26 +16,37 @@
           border: 5px solid black;
           border-right-width:10px;
           border-bottom-width:10px;
-          padding: 2%;
+          padding: 0;
           margin-top:25px;
           margin-bottom:25px;
           margin-left:25px;
           margin-right:25px;
         }
+        .cover{
+            background-image:url(images/hearse_side.png);
+            background-position:center;
+            background-size: contain;
+            height:600px;
+            width: 100%;
+            margin:0;
+            padding:2%;
+
+        }
         ol{
           background:RGBa(255, 99, 71, 0.8);
           padding: 2%;
-          margin:auto;
+          margin:25px;
+          margin-left:25px;
           width: 80%
           border: 5px solid CornflowerBlue;
+          padding:5%;
         }
         ol li {
           background:#ffe5e5;
           padding: 5px;
           margin:auto;
           width:90%;
-          /* margin-left: 35px; */
-          border: 2px solid black;
+          margin-left: 35px;
         }
       #top{
           text-align: center;
@@ -49,10 +59,8 @@
         text-align:center;
         text-decoration:underline;
         margin:2%;
-        border: 3px purple solid;
             }
             a{
-              border: 2px solid red;
               color:CornflowerBlue;
               text-decoration: underline;
             }
@@ -61,14 +69,12 @@
                   color:RGBa(255, 99, 71, 0.8);
                   font-family: Baskerville, Times New Roman, serif;
                   text-align:center;
-                  border: 3px solid purple;
             }
             p{
               text-align: center;
               font-family: Helvetica, Arial, sans-serif;
               color:CornflowerBlue;
               margin: auto
-              border: 3px solid purple;
             }
             .black{
                 width: 100%;
@@ -80,9 +86,18 @@
                 margin-bottom: 25px;
             }
             .center{
-                margin:auto;
-                width:100%;
+                margin:45px;
+                margin-left:45px;
+                width:80%;
                 display:block;
+                border: 10px solid CornflowerBlue;
+            }
+            .low{
+              margin:45px;
+              padding-top:420px;
+              font-size:4em;
+              color:RGBa(255, 99, 71, 0.7);
+              text-decoration: none;
             }
 
 
@@ -93,9 +108,11 @@
     <title>Lindsay's Dead</title>
 
   </head>
-</div><!-- end of <header> -->
+<!-- end of <header> -->
   <body>
-
+      <div class="cover">
+        <h1 class="low"> Lindsay's Dead</h1>
+      </div>
     <h1 id="top">Requiem</h1>
     <h2>Songs For My Funeral</h2>
       <div class=:"center"><!--begin list-->
