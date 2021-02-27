@@ -30,7 +30,7 @@ ol{
   padding: 2%;
   margin:25px;
   margin-left:25px;
-  width: 80%
+  width: 80%;
   border: 5px solid CornflowerBlue;
   padding:5%;
 }
@@ -43,11 +43,11 @@ ol li {
 }
 #top{
   text-align: center;
-  font-family: Arya Triple, sans-serif;
+  font-family: "Arya Triple", sans-serif;
   font-size: 300%;
 }
   h1  {
-font-family: Arya Triple, Futura, sans-serif;
+font-family: "Arya Triple", Futura, sans-serif;
 color:CornflowerBlue;
 text-align:center;
 text-decoration:underline;
@@ -60,7 +60,7 @@ margin:2%;
     h2 {
           font-size:2em;
           color:RGBa(255, 99, 71, 0.8);
-          font-family: Baskerville, Times New Roman, serif;
+          font-family: Baskerville, "Times New Roman", serif;
           text-align:center;
     }
     p{
