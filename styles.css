@@ -16,7 +16,7 @@ img {
   margin-right:25px;
 }
 .cover{
-    background-image:url(images/walking.jpg);
+    background-image:url(images/casket_hearse.jpg);
     background-position:center;
     background-size: contain;
     height:600px;
@@ -87,7 +87,7 @@ margin:2%;
     }
     .low{
       margin:45px;
-      padding-top:300px;
+      padding-top:400px;
       font-size:4em;
       color:RGBa(255, 99, 71, 0.7);
       text-decoration: none;
